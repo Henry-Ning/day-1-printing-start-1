@@ -15,3 +15,13 @@ print("New lines can be created with a backslash and n.")
 print("Hello " + input("What is your name?"))
 
 print(len(input("What is your name?")))
+
+name = 'Jack'
+print(name)
+
+name = 'Angela'
+print(name)
+
+name = input("What is your name?")
+length = len(name)
+print(length)
