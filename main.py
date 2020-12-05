@@ -1,27 +1,20 @@
-print("Day 1 - Python Print Function")
-print("The function is declared like this:")
-print('print("what to print")')
+# 🚨 Don't change the code below 👇
+a = input("a: ")
+b = input("b: ")
+# 🚨 Don't change the code above 👆
 
-print('Hello World \nHello World \nHello World')
+####################################
+#First *fork* your copy. Then copy-paste your code below this line 👇
+#Finally click "Run" to execute the tests
 
-print('Hello ' + 'Angela')
+c = b
+b = a 
+a = c 
 
 
-print("Day 1 - String Manipulation")
-print('String Concatenation is done with the "+"sign.')
-print('e.g. print("Hello " + "world")')
-print("New lines can be created with a backslash and n.")
+#Write your code above this line 👆
+####################################
 
-print("Hello " + input("What is your name?"))
-
-print(len(input("What is your name?")))
-
-name = 'Jack'
-print(name)
-
-name = 'Angela'
-print(name)
-
-name = input("What is your name?")
-length = len(name)
-print(length)
+# 🚨 Don't change the code below 👇
+print("a: " + a)
+print("b: " + b)
